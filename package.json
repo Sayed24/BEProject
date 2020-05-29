@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "description": "This is a webnsite for excercise purpose",
   "main": "index.js",
+
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "author": "Sayed Sadat",
   "license": "ISC",
+  
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.12.0"
   },
+
   "dependencies": {
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
